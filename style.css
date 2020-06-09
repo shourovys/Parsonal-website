@@ -1,156 +1,154 @@
-/* reser body */
+/* -----------------------------------------------------------css resat */
 
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', ;
-    width: 95%;
-    margin: auto;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  width: 95%;
+  margin: auto;
+  box-sizing: border-box;
 }
-
 
 /* section----------------------------------------------------------- */
 
 .section {
-    display: flex;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .left-section,
 .right-section {
-    flex-basis: 40%;
-}
-
-.left-section h1 {
-    font-size: 3.8rem;
-    margin-top: 7px;
-    color: rgb(229, 88, 107);
+  flex-basis: 40%;
 }
 
 .left-section h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .left-section p {
-    font-size: 1.3rem;
-    margin-top: 35px;
+  font-size: 1.3rem;
+  margin-top: 35px;
 }
 
 .btn {
-    margin: 30px 10px;
-    padding: 10px 0px;
-    background-color: rgb(229, 88, 107);
-    height: 38px;
-    width: 100px;
-    border-radius: 5px;
-    border: none;
-    color: wheat;
-    font-weight: bold;
-    font-family: 'Poppins', ;
+  margin: 30px 10px;
+  padding: 10px 0px;
+  background-color: #77e4ff;
+  height: 38px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  color: wheat;
+  font-weight: bold;
+  font-family: "Poppins";
 }
 
 .btn:hover {
-    color: orangered;
-    background-color: rgba(250, 103, 152, 0.931);
+  color: orangered;
+  background-color: #8be0f5;
 }
 
 .btn a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .section {
-    margin: 2rem 28px;
-    padding: 4rem 0;
-    height: 100%;
+  margin: 2rem 28px;
+  padding: 4rem 0;
+  height: 100%;
 }
 
 #section1::before {
-    content: " ";
-    background: url(img/header-bg.png)no-repeat center center/cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  content: " ";
+  background: url(img/header-bg.png) no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 #section2::before {
-    content: " ";
-    background: url(img/biography-bg.png)no-repeat center center/cover;
-    position: absolute;
-    top: 700px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  content: " ";
+  background: url(img/biography-bg.png) no-repeat center center/cover;
+  position: absolute;
+  top: 700px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .right-section {
-    height: 45%;
-    width: 45%;
+  height: 45%;
+  width: 45%;
 }
 
 .right-section img {
-    height: 500px;
-    width: 500px;
+  height: 500px;
+  width: 500px;
 }
-
 
 /* My latest work
 ----------------------------------------------------------- */
 
 #work-sec {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 50px 5px 70px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px 5px 70px 30px;
 }
 
 #work-sec img {
-    margin: 10px;
-    padding: 5px 10px;
+  margin: 10px;
+  padding: 5px 10px;
 }
-
 
 /* client section
 ------------------------------------------------------------------------ */
 
 .client p {
-    margin: 61px 25px;
+  margin: 61px 25px;
 }
 
 .email {
-    height: 150px;
-    width: 650px;
-    background-color: rgb(229, 88, 107);
-    margin: 40px auto;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    margin-bottom: 100px;
+  height: 150px;
+  width: 650px;
+  background-image: linear-gradient(45deg, #77e4ff, #77ffd6);
+
+  /* background: linear-gradient(#e66465, #9198e5); */
+  margin: 40px auto;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 100px;
 }
 
 .email h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .email h4 {
-    padding-top: 28px;
+  padding-top: 28px;
 }
-
 
 /* CLASS
 ------------------------------------------------------------------------ */
+.h-primary {
+  font-size: 3.8rem;
+  margin-top: 7px;
+  color: #77e4ff;
+}
 
 .tect-center {
-    text-align: center;
-    font-size: 1.1rem;
-    margin: 18px 2px 2px 20px;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 18px 2px 2px 20px;
 }
 
 .heading {
-    text-align: center;
-    font-size: 2.3rem;
-    margin: 80px auto;
+  text-align: center;
+  font-size: 2.3rem;
+  margin: 80px auto;
 }
